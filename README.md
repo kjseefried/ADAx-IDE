@@ -18,7 +18,7 @@ You should now be able to compile ada programs in Mac
 #Current features
 + Simple code editor 
 + Console view
-+ Basic UI
++ Basic UI with Fullscreen support and resizable panels.
 + Saving and opening files
 + Running gnat whithin the app
 
