@@ -1,7 +1,8 @@
 #ADAx 
 #Overview
 Ada IDE for Mac OS X is a simple to use native app for developing and compiling Ada progams. The app is currently in a very primitive state.
-The main purpose of this app is to have an IDE which is simple to use and simplifises the code writing. ADAx shall follow the Apple human interface guidelines.
+The main purpose of this app is to have an IDE which is simple to use and simplifies the code writing. ADAx shall follow the Apple human interface guidelines.
+
 
 #How to use
 + Download the gnat compiler from http://libre.adacore.com/download/
