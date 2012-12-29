@@ -27,5 +27,8 @@ You should now be able to compile ada programs in Mac
 + Line numbers for the code editor
 + Template generator for ada body and header files. 
 
+#Screenshot
+![ScreenShot](https://raw.github.com/alexanis/ADAx-IDE/master/Screenshot.png)
+
 #Author
 Alex Anis
