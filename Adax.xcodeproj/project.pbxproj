@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7091EC168F17A7000CDD57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7091EB168F17A7000CDD57 /* Cocoa.framework */; };
+		CE7091F6168F17A7000CDD57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE7091F4168F17A7000CDD57 /* InfoPlist.strings */; };
+		CE7091F8168F17A7000CDD57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7091F7168F17A7000CDD57 /* main.m */; };
+		CE7091FC168F17A7000CDD57 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CE7091FA168F17A7000CDD57 /* Credits.rtf */; };
+		CE7091FF168F17A7000CDD57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7091FE168F17A7000CDD57 /* AppDelegate.m */; };
+		CE709202168F17A8000CDD57 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE709200168F17A8000CDD57 /* MainMenu.xib */; };
+		CE70920A168F17A8000CDD57 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE709209168F17A8000CDD57 /* SenTestingKit.framework */; };
+		CE70920B168F17A8000CDD57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7091EB168F17A7000CDD57 /* Cocoa.framework */; };
+		CE709213168F17A8000CDD57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE709211168F17A8000CDD57 /* InfoPlist.strings */; };
+		CE709216168F17A8000CDD57 /* AdaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE709215168F17A8000CDD57 /* AdaxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE70920C168F17A8000CDD57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7091DE168F17A7000CDD57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7091E6168F17A7000CDD57;
+			remoteInfo = Adax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE7091E7168F17A7000CDD57 /* Adax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7091EB168F17A7000CDD57 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CE7091EE168F17A7000CDD57 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CE7091EF168F17A7000CDD57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE7091F0168F17A7000CDD57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE7091F3168F17A7000CDD57 /* Adax-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adax-Info.plist"; sourceTree = "<group>"; };
+		CE7091F5168F17A7000CDD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE7091F7168F17A7000CDD57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE7091F9168F17A7000CDD57 /* Adax-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adax-Prefix.pch"; sourceTree = "<group>"; };
+		CE7091FB168F17A7000CDD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CE7091FD168F17A7000CDD57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE7091FE168F17A7000CDD57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE709201168F17A8000CDD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CE709208168F17A8000CDD57 /* AdaxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdaxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE709209168F17A8000CDD57 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE709210168F17A8000CDD57 /* AdaxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdaxTests-Info.plist"; sourceTree = "<group>"; };
+		CE709212168F17A8000CDD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE709214168F17A8000CDD57 /* AdaxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdaxTests.h; sourceTree = "<group>"; };
+		CE709215168F17A8000CDD57 /* AdaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7091E4168F17A7000CDD57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7091EC168F17A7000CDD57 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE709204168F17A8000CDD57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE70920A168F17A8000CDD57 /* SenTestingKit.framework in Frameworks */,
+				CE70920B168F17A8000CDD57 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE7091DC168F17A7000CDD57 = {
+			isa = PBXGroup;
+			children = (
+				CE7091F1168F17A7000CDD57 /* Adax */,
+				CE70920E168F17A8000CDD57 /* AdaxTests */,
+				CE7091EA168F17A7000CDD57 /* Frameworks */,
+				CE7091E8168F17A7000CDD57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7091E8168F17A7000CDD57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7091E7168F17A7000CDD57 /* Adax.app */,
+				CE709208168F17A8000CDD57 /* AdaxTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7091EA168F17A7000CDD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7091EB168F17A7000CDD57 /* Cocoa.framework */,
+				CE709209168F17A8000CDD57 /* SenTestingKit.framework */,
+				CE7091ED168F17A7000CDD57 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7091ED168F17A7000CDD57 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7091EE168F17A7000CDD57 /* AppKit.framework */,
+				CE7091EF168F17A7000CDD57 /* CoreData.framework */,
+				CE7091F0168F17A7000CDD57 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CE7091F1168F17A7000CDD57 /* Adax */ = {
+			isa = PBXGroup;
+			children = (
+				CE7091FD168F17A7000CDD57 /* AppDelegate.h */,
+				CE7091FE168F17A7000CDD57 /* AppDelegate.m */,
+				CE709200168F17A8000CDD57 /* MainMenu.xib */,
+				CE7091F2168F17A7000CDD57 /* Supporting Files */,
+			);
+			path = Adax;
+			sourceTree = "<group>";
+		};
+		CE7091F2168F17A7000CDD57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE7091F3168F17A7000CDD57 /* Adax-Info.plist */,
+				CE7091F4168F17A7000CDD57 /* InfoPlist.strings */,
+				CE7091F7168F17A7000CDD57 /* main.m */,
+				CE7091F9168F17A7000CDD57 /* Adax-Prefix.pch */,
+				CE7091FA168F17A7000CDD57 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE70920E168F17A8000CDD57 /* AdaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE709214168F17A8000CDD57 /* AdaxTests.h */,
+				CE709215168F17A8000CDD57 /* AdaxTests.m */,
+				CE70920F168F17A8000CDD57 /* Supporting Files */,
+			);
+			path = AdaxTests;
+			sourceTree = "<group>";
+		};
+		CE70920F168F17A8000CDD57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE709210168F17A8000CDD57 /* AdaxTests-Info.plist */,
+				CE709211168F17A8000CDD57 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7091E6168F17A7000CDD57 /* Adax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE709219168F17A8000CDD57 /* Build configuration list for PBXNativeTarget "Adax" */;
+			buildPhases = (
+				CE7091E3168F17A7000CDD57 /* Sources */,
+				CE7091E4168F17A7000CDD57 /* Frameworks */,
+				CE7091E5168F17A7000CDD57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adax;
+			productName = Adax;
+			productReference = CE7091E7168F17A7000CDD57 /* Adax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE709207168F17A8000CDD57 /* AdaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE70921C168F17A8000CDD57 /* Build configuration list for PBXNativeTarget "AdaxTests" */;
+			buildPhases = (
+				CE709203168F17A8000CDD57 /* Sources */,
+				CE709204168F17A8000CDD57 /* Frameworks */,
+				CE709205168F17A8000CDD57 /* Resources */,
+				CE709206168F17A8000CDD57 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE70920D168F17A8000CDD57 /* PBXTargetDependency */,
+			);
+			name = AdaxTests;
+			productName = AdaxTests;
+			productReference = CE709208168F17A8000CDD57 /* AdaxTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7091DE168F17A7000CDD57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Alex;
+			};
+			buildConfigurationList = CE7091E1168F17A7000CDD57 /* Build configuration list for PBXProject "Adax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE7091DC168F17A7000CDD57;
+			productRefGroup = CE7091E8168F17A7000CDD57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7091E6168F17A7000CDD57 /* Adax */,
+				CE709207168F17A8000CDD57 /* AdaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7091E5168F17A7000CDD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7091F6168F17A7000CDD57 /* InfoPlist.strings in Resources */,
+				CE7091FC168F17A7000CDD57 /* Credits.rtf in Resources */,
+				CE709202168F17A8000CDD57 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE709205168F17A8000CDD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE709213168F17A8000CDD57 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE709206168F17A8000CDD57 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7091E3168F17A7000CDD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7091F8168F17A7000CDD57 /* main.m in Sources */,
+				CE7091FF168F17A7000CDD57 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE709203168F17A8000CDD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE709216168F17A8000CDD57 /* AdaxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE70920D168F17A8000CDD57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7091E6168F17A7000CDD57 /* Adax */;
+			targetProxy = CE70920C168F17A8000CDD57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE7091F4168F17A7000CDD57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7091F5168F17A7000CDD57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE7091FA168F17A7000CDD57 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7091FB168F17A7000CDD57 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CE709200168F17A8000CDD57 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE709201168F17A8000CDD57 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CE709211168F17A8000CDD57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE709212168F17A8000CDD57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE709217168F17A8000CDD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE709218168F17A8000CDD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE70921A168F17A8000CDD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adax/Adax-Prefix.pch";
+				INFOPLIST_FILE = "Adax/Adax-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE70921B168F17A8000CDD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adax/Adax-Prefix.pch";
+				INFOPLIST_FILE = "Adax/Adax-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE70921D168F17A8000CDD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Adax.app/Contents/MacOS/Adax";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adax/Adax-Prefix.pch";
+				INFOPLIST_FILE = "AdaxTests/AdaxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE70921E168F17A8000CDD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Adax.app/Contents/MacOS/Adax";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adax/Adax-Prefix.pch";
+				INFOPLIST_FILE = "AdaxTests/AdaxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7091E1168F17A7000CDD57 /* Build configuration list for PBXProject "Adax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE709217168F17A8000CDD57 /* Debug */,
+				CE709218168F17A8000CDD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE709219168F17A8000CDD57 /* Build configuration list for PBXNativeTarget "Adax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE70921A168F17A8000CDD57 /* Debug */,
+				CE70921B168F17A8000CDD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE70921C168F17A8000CDD57 /* Build configuration list for PBXNativeTarget "AdaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE70921D168F17A8000CDD57 /* Debug */,
+				CE70921E168F17A8000CDD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7091DE168F17A7000CDD57 /* Project object */;
+}
