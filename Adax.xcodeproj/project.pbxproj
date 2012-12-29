@@ -12,11 +12,22 @@
 		CE7091F8168F17A7000CDD57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7091F7168F17A7000CDD57 /* main.m */; };
 		CE7091FC168F17A7000CDD57 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CE7091FA168F17A7000CDD57 /* Credits.rtf */; };
 		CE7091FF168F17A7000CDD57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7091FE168F17A7000CDD57 /* AppDelegate.m */; };
-		CE709202168F17A8000CDD57 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE709200168F17A8000CDD57 /* MainMenu.xib */; };
 		CE70920A168F17A8000CDD57 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE709209168F17A8000CDD57 /* SenTestingKit.framework */; };
 		CE70920B168F17A8000CDD57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7091EB168F17A7000CDD57 /* Cocoa.framework */; };
 		CE709213168F17A8000CDD57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE709211168F17A8000CDD57 /* InfoPlist.strings */; };
 		CE709216168F17A8000CDD57 /* AdaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE709215168F17A8000CDD57 /* AdaxTests.m */; };
+		CE709220168F189E000CDD57 /* icons.iconset in Resources */ = {isa = PBXBuildFile; fileRef = CE70921F168F189E000CDD57 /* icons.iconset */; };
+		CE709229168F190C000CDD57 /* Clear-Green-Button-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE709226168F190C000CDD57 /* Clear-Green-Button-icon.png */; };
+		CE70922A168F190C000CDD57 /* Help-Blue-Button-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE709227168F190C000CDD57 /* Help-Blue-Button-icon.png */; };
+		CE70922B168F190C000CDD57 /* Play-Green-Button-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE709228168F190C000CDD57 /* Play-Green-Button-icon.png */; };
+		CE70922D168F191D000CDD57 /* Document-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE70922C168F191D000CDD57 /* Document-icon.png */; };
+		CE709230168F1929000CDD57 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70922F168F1929000CDD57 /* Document.m */; };
+		CE709233168F192E000CDD57 /* FileSystemItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE709232168F192E000CDD57 /* FileSystemItem.m */; };
+		CE709238168F19AD000CDD57 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE709237168F19AD000CDD57 /* MainMenu.xib */; };
+		CE70923A168F19D9000CDD57 /* New-Document-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE709239168F19D9000CDD57 /* New-Document-icon.png */; };
+		CE70924E168F203C000CDD57 /* IDE.m in Sources */ = {isa = PBXBuildFile; fileRef = CE709235168F1935000CDD57 /* IDE.m */; };
+		CE70924F168F204B000CDD57 /* IDE.m in Sources */ = {isa = PBXBuildFile; fileRef = CE709235168F1935000CDD57 /* IDE.m */; };
+		CE709250168F2439000CDD57 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70922F168F1929000CDD57 /* Document.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +53,25 @@
 		CE7091FB168F17A7000CDD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		CE7091FD168F17A7000CDD57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE7091FE168F17A7000CDD57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE709201168F17A8000CDD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CE709208168F17A8000CDD57 /* AdaxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdaxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE709209168F17A8000CDD57 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CE709210168F17A8000CDD57 /* AdaxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdaxTests-Info.plist"; sourceTree = "<group>"; };
 		CE709212168F17A8000CDD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE709214168F17A8000CDD57 /* AdaxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdaxTests.h; sourceTree = "<group>"; };
 		CE709215168F17A8000CDD57 /* AdaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaxTests.m; sourceTree = "<group>"; };
+		CE70921F168F189E000CDD57 /* icons.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icons.iconset; sourceTree = "<group>"; };
+		CE709226168F190C000CDD57 /* Clear-Green-Button-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clear-Green-Button-icon.png"; sourceTree = "<group>"; };
+		CE709227168F190C000CDD57 /* Help-Blue-Button-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help-Blue-Button-icon.png"; sourceTree = "<group>"; };
+		CE709228168F190C000CDD57 /* Play-Green-Button-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play-Green-Button-icon.png"; sourceTree = "<group>"; };
+		CE70922C168F191D000CDD57 /* Document-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Document-icon.png"; sourceTree = "<group>"; };
+		CE70922E168F1929000CDD57 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		CE70922F168F1929000CDD57 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		CE709231168F192E000CDD57 /* FileSystemItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSystemItem.h; sourceTree = "<group>"; };
+		CE709232168F192E000CDD57 /* FileSystemItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSystemItem.m; sourceTree = "<group>"; };
+		CE709234168F1935000CDD57 /* IDE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDE.h; sourceTree = "<group>"; };
+		CE709235168F1935000CDD57 /* IDE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDE.m; sourceTree = "<group>"; };
+		CE709237168F19AD000CDD57 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		CE709239168F19D9000CDD57 /* New-Document-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New-Document-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +139,14 @@
 			children = (
 				CE7091FD168F17A7000CDD57 /* AppDelegate.h */,
 				CE7091FE168F17A7000CDD57 /* AppDelegate.m */,
-				CE709200168F17A8000CDD57 /* MainMenu.xib */,
+				CE709237168F19AD000CDD57 /* MainMenu.xib */,
+				CE709234168F1935000CDD57 /* IDE.h */,
+				CE709235168F1935000CDD57 /* IDE.m */,
+				CE70922E168F1929000CDD57 /* Document.h */,
+				CE70922F168F1929000CDD57 /* Document.m */,
+				CE709231168F192E000CDD57 /* FileSystemItem.h */,
+				CE709232168F192E000CDD57 /* FileSystemItem.m */,
+				CE709221168F18A8000CDD57 /* Grahpics */,
 				CE7091F2168F17A7000CDD57 /* Supporting Files */,
 			);
 			path = Adax;
@@ -151,6 +181,19 @@
 				CE709211168F17A8000CDD57 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE709221168F18A8000CDD57 /* Grahpics */ = {
+			isa = PBXGroup;
+			children = (
+				CE709226168F190C000CDD57 /* Clear-Green-Button-icon.png */,
+				CE70922C168F191D000CDD57 /* Document-icon.png */,
+				CE709239168F19D9000CDD57 /* New-Document-icon.png */,
+				CE709227168F190C000CDD57 /* Help-Blue-Button-icon.png */,
+				CE709228168F190C000CDD57 /* Play-Green-Button-icon.png */,
+				CE70921F168F189E000CDD57 /* icons.iconset */,
+			);
+			name = Grahpics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +269,13 @@
 			files = (
 				CE7091F6168F17A7000CDD57 /* InfoPlist.strings in Resources */,
 				CE7091FC168F17A7000CDD57 /* Credits.rtf in Resources */,
-				CE709202168F17A8000CDD57 /* MainMenu.xib in Resources */,
+				CE709220168F189E000CDD57 /* icons.iconset in Resources */,
+				CE709229168F190C000CDD57 /* Clear-Green-Button-icon.png in Resources */,
+				CE70922A168F190C000CDD57 /* Help-Blue-Button-icon.png in Resources */,
+				CE70922B168F190C000CDD57 /* Play-Green-Button-icon.png in Resources */,
+				CE70922D168F191D000CDD57 /* Document-icon.png in Resources */,
+				CE709238168F19AD000CDD57 /* MainMenu.xib in Resources */,
+				CE70923A168F19D9000CDD57 /* New-Document-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +310,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE709250168F2439000CDD57 /* Document.m in Sources */,
 				CE7091F8168F17A7000CDD57 /* main.m in Sources */,
 				CE7091FF168F17A7000CDD57 /* AppDelegate.m in Sources */,
+				CE70924F168F204B000CDD57 /* IDE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +322,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE709216168F17A8000CDD57 /* AdaxTests.m in Sources */,
+				CE709230168F1929000CDD57 /* Document.m in Sources */,
+				CE709233168F192E000CDD57 /* FileSystemItem.m in Sources */,
+				CE70924E168F203C000CDD57 /* IDE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +353,6 @@
 				CE7091FB168F17A7000CDD57 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		CE709200168F17A8000CDD57 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE709201168F17A8000CDD57 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		CE709211168F17A8000CDD57 /* InfoPlist.strings */ = {
@@ -376,11 +422,14 @@
 		CE70921A168F17A8000CDD57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adax/Adax-Prefix.pch";
 				INFOPLIST_FILE = "Adax/Adax-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -388,11 +437,14 @@
 		CE70921B168F17A8000CDD57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adax/Adax-Prefix.pch";
 				INFOPLIST_FILE = "Adax/Adax-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -446,6 +498,7 @@
 				CE70921B168F17A8000CDD57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE70921C168F17A8000CDD57 /* Build configuration list for PBXNativeTarget "AdaxTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +507,7 @@
 				CE70921E168F17A8000CDD57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
