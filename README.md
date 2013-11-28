@@ -1,3 +1,6 @@
+Project is deprecated!!!
+
+
 #ADAx 
 #Overview
 Ada IDE for Mac OS X is a simple to use native app for developing and compiling Ada progams. The app is currently in a very primitive state.
